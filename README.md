@@ -2,6 +2,9 @@ JMOA自动化测试框架
 =====
 安装说明
 -----
+1.需要安装chromedriver至chrome目录下
+2.安装selenium2
+3.安装cx_oracle
 使用说明
 -----
 1.编辑配置文件conf/下的'oss.xml'和'oss-xxx（对应的环境）.xml'
