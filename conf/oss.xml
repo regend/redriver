@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <env>sandbox</env>
+    <browser>chrome</browser>
+    <driverpath>C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe</driverpath>
+</catalog>

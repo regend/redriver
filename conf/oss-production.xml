@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <database>
+        <host>10.10.16.15:1521/jmoadb</host>
+        <username>jm_production</username>
+        <password>poXwe0oOl1Ex0lLZex</password>
+    </database>
+    <redis>
+        <host>10.10.17.8</host>
+        <port>6379</port>
+        <db>0</db>
+    </redis>
+    <login>
+        <username>yumanjie</username>
+        <password>Yumj1029</password>
+    </login>
+    <baseurl>https://oss.jmtop.com</baseurl>
+    <state>US</state>
+    <datapath>C:\production\</datapath>
+</catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <database>
+        <host>10.10.17.152:1521/jmvmdb2</host>
+        <username>jmoa</username>
+        <password>jmoa123</password>
+    </database>
+    <redis>
+        <host>10.10.17.8</host>
+        <port>6379</port>
+        <db>0</db>
+    </redis>
+    <login>
+        <username>root</username>
+        <password>root</password>
+    </login>
+    <baseurl>https://sandbox-v1.jmtop.com</baseurl>
+    <state>TW</state>
+    <datapath>C:\sandbox\</datapath>
+</catalog>

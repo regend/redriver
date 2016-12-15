@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <database>
+        <host>192.168.5.112:1521/jmdev4</host>
+        <username>jmoatester</username>
+        <password>jmoatester321</password>
+    </database>
+    <redis>
+        <host>10.10.17.8</host>
+        <port>6379</port>
+        <db>0</db>
+    </redis>
+    <login>
+        <username>root</username>
+        <password>root</password>
+    </login>
+    <baseurl>https://192.168.5.118</baseurl>
+    <state>TW</state>
+    <datapath>C:\test\</datapath>
+</catalog>
