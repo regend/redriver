@@ -14,7 +14,7 @@ class Initialize():
     def __init__(self):
         pass
 
-    sysPath = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir)) + '\\SLNM_Script'
+    sysPath = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir)) + '\\QA-Webdriver'
     path = sysPath + '\\conf\\oss.xml'
     dom = xml.dom.minidom.parse(path)
     root = dom.documentElement
@@ -24,7 +24,7 @@ class Initialize():
     driverpath = root.getElementsByTagName('driverpath')[0].childNodes[0].data
 
     configPath = os.path.abspath(
-        os.path.join(os.path.dirname("__file__"), os.path.pardir)) + '\\SLNM_Script\\conf\\oss-' + env + '.xml'
+        os.path.join(os.path.dirname("__file__"), os.path.pardir)) + '\\QA-Webdriver\\conf\\oss-' + env + '.xml'
     configDom = xml.dom.minidom.parse(configPath)
     configRoot = configDom.documentElement
 
